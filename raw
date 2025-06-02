@@ -15,8 +15,8 @@
 
 # 桌面端请使用 https://google.com/ncr
 # 谷歌服务重定向//www.google.cn
-^https?:\/\/www\.google\.cn 302 https://www.google.com
-^https?:\/\/translate\.google\.cn 302 https://translate.google.com
+^https?:\/\/(www.)?(g|google)\.cn url 302 https://www.google.com
+^https?:\/\/translate\.google\.cn url 302 https://translate.google.com
 
 #Google
 ^https?:\/\/(www\.google)(\.\w{2,4}){1,2}\/(search\?|\?sa=|\?FORM)(?!.*?(apps=)) url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/Webpage.js
