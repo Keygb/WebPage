@@ -12,8 +12,8 @@
 ^https:\/\/(?:www|m)\.baidu\.com(\/|\/\?(tn=&)?from=\d+\w)?$ url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/Baidu.js
 ## 百度知道
 ^https:\/\/zhidao\.baidu\.com\/(?:question|index|\?fr|\?word) url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/baiduzhidao.js
-# 桌面端请使用 https://google.com/ncr
 
+# 桌面端请使用 https://google.com/ncr
 # 谷歌服务重定向//www.google.cn
 ^https?:\/\/www\.google\.cn 302 https://www.google.com
 ^https?:\/\/translate\.google\.cn 302 https://translate.google.com
@@ -26,6 +26,7 @@
 
 #Missav.com
 ^https?:\/\/missav\.(ws|com|ai)\/(?!(.*(api|login|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/Webpage.js
+
 #PornHub (https://cn.pornhub.com/) //*.pornhub.com
 ^https:\/\/(cn|www)\.pornhub\.com\/_xa\/ads.* url reject
 
