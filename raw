@@ -40,9 +40,10 @@
 ^https:\/\/ammcg\.imgstream2\.com\/ url reject-img
 ^https:\/\/mmfree1\.com\/A_PH url reject-img
 
-^https:\/\/18h\.mm-cg\.com\/zh\/doujin_content url reject-img
-^https:\/\/18h\.mm-cg\.com\/adcg\/91porn url reject-img
-^https:\/\/18h\.mm-cg\.com\/adcg\/hgame url reject-img
+#^https:\/\/18h\.mm-cg\.com\/zh\/doujin_content url reject-img
+#^https:\/\/18h\.mm-cg\.com\/adcg\/91porn url reject-img
+#^https:\/\/18h\.mm-cg\.com\/adcg\/hgame url reject-img
+^https:\/\/18h\.mm-cg\.com\/ url reject-img
 
 ^https:\/\/mmfree3\.com\/index\.phtml\? url reject-img
 
