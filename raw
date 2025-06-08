@@ -20,6 +20,9 @@
 # JavDB //javdb.com
 ^https:\/\/javdb\.com\/(?!over18\?) url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/javdb.js
 
+#icloud重定向/www.icloud.com
+^https:\/\/www\.icloud\.com url 302 https://www.icloud.com.cn
+
 #Missav.com
 ^https?:\/\/missav\.(ws|com|ai)\/(?!(.*(api|login|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/Webpage.js
 
@@ -33,7 +36,7 @@
 
 
 
-hostname=boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, www.google.cn, www.google.com, javdb.com, missav.com, missav.ai, missav.ws, pornhubed.com, *.pornhub.com
+hostname=boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, www.google.cn, www.google.com, javdb.com, missav.com, missav.ai, missav.ws, www.icloud.com, pornhubed.com, *.pornhub.com
 
 
 
