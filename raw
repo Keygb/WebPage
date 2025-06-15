@@ -1,6 +1,11 @@
 #!name = WebPage
 #!desc = 移除网页广告。
 
+^https:\/\/18av\.mm-cg\.com\/adcg\/91porn url reject-img
+^https:\/\/18av\.mm-cg\.com\/adcg\/hgame url reject-img
+^https:\/\/mmfree3\.com\/A_PH url reject-img
+^https:\/\/18av\.mm-cg\.com\/adcg url reject-img
+
 # 百度//boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com
 ## 百度防跳转
 ^https:\/\/boxer\.baidu\.com\/scheme\?scheme url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/baiduNoRedirect.js
@@ -36,7 +41,7 @@
 
 
 
-hostname=boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, www.google.cn, www.google.com, javdb.com, missav.com, missav.ai, missav.ws, www.icloud.com, pornhubed.com, *.pornhub.com
+hostname=18av.mm-cg.com, mmfree3.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, www.google.cn, www.google.com, javdb.com, missav.com, missav.ai, missav.ws, www.icloud.com, pornhubed.com, *.pornhub.com
 
 
 
