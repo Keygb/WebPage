@@ -24,6 +24,8 @@
 
 # JavDB //javdb.com
 ^https:\/\/javdb\.com\/(?!over18\?) url script-response-body https://raw.githubusercontent.com/Keygb/QuantumX/refs/heads/main/javdb.js
+#会员部分
+^https:\/\/api\.hechuangxinxi\.xyz\/api\/v1\/movies\/\w+\/play\? url script-response-body https://raw.githubusercontent.com/Keygb/WebPage/refs/heads/main/javdb.js
 
 #icloud重定向/www.icloud.com
 ^https:\/\/www\.icloud\.com url 302 https://www.icloud.com.cn
@@ -41,7 +43,7 @@
 
 
 
-hostname=18av.mm-cg.com, mmfree3.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, www.google.cn, www.google.com, javdb.com, missav.com, missav.ai, missav.ws, www.icloud.com, pornhubed.com, *.pornhub.com
+hostname=api.hechuangxinxi.xyz, 18av.mm-cg.com, mmfree3.com, boxer.baidu.com, m.baidu.com, www.baidu.com, zhidao.baidu.com, www.google.cn, www.google.com, javdb.com, missav.com, missav.ai, missav.ws, www.icloud.com, pornhubed.com, *.pornhub.com
 
 
 
